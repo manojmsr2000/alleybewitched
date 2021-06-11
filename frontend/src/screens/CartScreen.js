@@ -96,7 +96,7 @@ const CartScreen = ({ match, location, history }) => {
         )}
       </Col>
       <Col md={4}>
-        <Card>
+        <Card className="bg-dark">
           <ListGroup variant="flush">
             <ListGroup.Item className="bg-dark text-light">
               <h2>
