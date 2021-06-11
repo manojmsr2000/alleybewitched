@@ -98,7 +98,7 @@ const ProductScreen = ({ history, match }) => {
               </ListGroup>
             </Col>
             <Col>
-              <Card>
+              <Card className="bg-dark">
                 <ListGroup variant="flush">
                   <ListGroup.Item className="bg-dark text-light">
                     <Row>
@@ -142,7 +142,7 @@ const ProductScreen = ({ history, match }) => {
 
                 <Button
                   onClick={addToCartHandler}
-                  className="btn-block"
+                  className="btn-block m-2"
                   type="button"
                   disabled={product.countInStock === 0}
                 >
