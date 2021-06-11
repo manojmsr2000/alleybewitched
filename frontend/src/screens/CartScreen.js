@@ -40,7 +40,9 @@ const CartScreen = ({ match, location, history }) => {
         {cartItems.length === 0 ? (
           <Message variant="info">
             <h2 className="text-dark">Your cart is empty!</h2>
-            <Link to="/"> Go Back</Link>
+            <Link to="/" className="text-primary">
+              Go Back
+            </Link>
           </Message>
         ) : (
           <ListGroup variant="flush">
@@ -58,7 +60,9 @@ const CartScreen = ({ match, location, history }) => {
                       {item.name}
                     </Link>
                   </Col>
-                  <Col md={2} className="text-light">${item.price}</Col>
+                  <Col md={2} className="text-light">
+                    ${item.price}
+                  </Col>
                   <Col md={2}>
                     <Form.Control
                       as="select"
