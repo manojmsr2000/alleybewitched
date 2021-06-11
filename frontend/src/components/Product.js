@@ -6,7 +6,7 @@ import React from "react";
 
 const Product = ({ product }) => {
   return (
-    <Card style={{ width: "18rem" }} className="bg-dark text-light my-3 grow">
+    <Card className="bg-dark text-light my-3 grow">
       <Link to={`/product/${product._id}`}>
         <Card.Img src={product.image} variant="top"></Card.Img>
       </Link>

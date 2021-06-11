@@ -47,7 +47,7 @@ const ProductCarousel = () => {
       <h1 className="my-5 text-center">Top Rated Products</h1>
       <Row>
         {products.map((product) => (
-          <Col lg={3} md={6} sm={6} xs={6} key={product._id}>
+          <Col key={product._id}>
             <Link to={`/product/${product._id}`}>
               <Card className="bg-dark grow">
                 <Card.Img
