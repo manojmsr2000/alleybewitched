@@ -1,0 +1,93 @@
+nav {
+  padding: 0 2rem;
+}
+
+.navbar-brand {
+  font-family: "Parisienne", cursive;
+  font-size: 2.2rem;
+  color: #a85 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.carousel {
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: large;
+  background-color: #212529 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+td,
+p,
+thead {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ccbdad;
+}
+
+.rating {
+  color: #2978b5;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 58%;
+  left: 3%;
+  padding-bottom: 30%;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-inner {
+  background-image: url("/images/shop_now.jpg");
+  background-size: contain;
+}
+
+.grow {
+  transition: 0.5s ease;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 3%;
+    left: 3%;
+    padding-bottom: 2%;
+    color: #fff;
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 2.1rem;
+  }
+}
